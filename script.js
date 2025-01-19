@@ -7,10 +7,16 @@ const myLibrary = [
         read: 'yes'
     },
     {
-        title: 'The Lord of the Rings',
-        author: 'J.R.R. Tolkien',
-        pages: 1178,
+        title: 'The Art of War',
+        author: 'Sun Tzu',
+        pages: 38,
         read: 'no'
+    },
+    {
+        title: 'The Great Gatsby',
+        author: 'F. Scott Fitzgerald',
+        pages: 180,
+        read: 'yes'
     },
 ];
 
