@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <Header>
+        <h1>Library.</h1>
+    </Header>
+    
+    <div id="container">
+        <button class="bn54" onclick="window.dialog.showModal();"><span class="bn54span">Add Book</span></button>
+            
+
+        <dialog id="dialog">
+            <p>Add A Book</p>
+            <form method="dialog" id="form">
+                <input type="text" name="title" id="title" placeholder="Title" required>
+                <input type="text" name="author" id="author" placeholder="Author" required>
+                <input type="number" name="pages" id="pages" placeholder="Pages" required>
+                <label for="read">Read</label>
+                <select name="read" id="read">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <button type="submit">Add</button>
+            </form>
+        </dialog>
+
+
+
+
+        <div id="book-list"> 
+            <div class="book-card" style="text-align:center;">
+              
+            </div>
+            
+        </div>
+    
+    </div>
+
+    <div class="footer-2">
+        <p>© 2025 | Made by Kushal Prajapati
+        <a href="https://github.com/kushalPraja" target="_blank" class="github-link">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo" style="width: 20px; height: 20px; vertical-align:middle; margin-left: 5px;">
+        </a>
+        </p>
+    </div>
+    
+</body>
+</html>
